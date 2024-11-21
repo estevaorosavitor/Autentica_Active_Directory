@@ -5,3 +5,6 @@ Código implementado para facilitar a autenticação de usuários através do Ac
 São apenas duas variáveis que devem ser informadas no código-fonte:
 - `dominio` : que é o nome do domínio do seu AD;
 - `ip_server` : que é o IP do servidor local de seu Ad.
+
+Será necessário instalar a biblioteca ldap3:
+`pip install ldap3`
